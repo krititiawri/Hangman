@@ -1,0 +1,50 @@
+/*For image and sound*/
+#div1{
+  background-color: orange;
+  border-style: dotted;
+  border-color: black;
+  float: left;
+  width: 30%;
+  margin: 0px;
+  padding-top: 0px;
+  margin-left: 250px;
+  margin-top: 70px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+/*for Game window*/
+#div2{
+ margin: 0px;
+ background-color: blue;
+ background-repeat: no-repeat;
+ background-size: 350px;
+ padding-top:0px;
+ border-style: dotted;
+ border-color: black;
+ width: 30%;
+ float: left;
+ margin-top: 70px;
+ height: 350px;
+}
+
+body{
+  background-image: url("images/pink dust.png");
+  height: 100%;
+   /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+  margin-top: 70px;
+  /*margin-bottom: 170px;*/
+  /*background-image: url("images.jpg");*/
+  /*border: 1px solid blue;*/
+  overflow: auto;
+  text-align: center;
+  margin: 0px auto;
+
+
+}
+
+

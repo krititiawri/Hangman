@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <title>Hangman Game</title>
+
+</head>
+
+<body onload="myFunction()">
+<!-- External Javascript File -->
+<script type="text/javascript" src = "assets/demo_script_src.js"></script>
+<!-- container for the 2 division  -->
+<div class="container">
+	<div id="div1">
+	  <div id="game-pic">
+	  	<img src="assets/images/hangman.png" >
+	  </div>
+	  <div id="game-song">
+	  <audio controls><source src='assets/songs/08.mp3' type='audio/mpeg'></audio> 	
+	  </div>		
+	</div>
+	<div id="div2">
+			<p>Press any key to start</p>
+			<div>
+			  <p>Current Word</p>
+			  <p id="Start_key"> Press a key to start </p>
+			</div>
+		   <div>
+			 <p>user guessed</p>
+			 <p id="word-guess"></p>
+		   </div>
+		   <div>
+			 <p>Remmaining Words</p>
+			 <p id="word-remain"></p>
+			 <button onclick= "myFunction()">next Word</button>
+		   </div>
+		    <div id="game-loose">
+		    </div>
+	</div>
+</div>
+</body>
+</html>
+
